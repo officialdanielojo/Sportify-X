@@ -1,0 +1,151 @@
+body main h1 {
+  /* border: 2px solid red; */
+  margin-inline: 10px;
+  font-size: 27px;
+  color: #ff0000;
+}
+
+main .page_sect {
+  /* border: 2px solid red; */
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .page_sect a {
+  text-decoration: none;
+  color: #000000;
+}
+
+main .page_sect a div {
+  /* border: 2px solid green; */
+  background-color: #d7edb4ff;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+main .page_sect a div span {
+  /* border: 2px solid black; */
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+main .page_sect a div:hover {
+  color: #ffff;
+  background-color: #000000;
+}
+
+main .top_events {
+  /* border: 2px solid red; */
+  margin-block: 30px;
+}
+
+main .top_events .matchday {
+  /* border: 2px solid green; */
+  background-color: #d7edb4ff;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 10px;
+}
+
+main .top_events .matchday h4 {
+  /* border: 2px solid red; */
+  width: fit-content;
+  font-size: 20px;
+  border-radius: 15px;
+  margin: 10px;
+  background-color: #f3fae8ff;
+  padding: 5px;
+}
+
+main .top_events .matchday .con1 {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 10px;
+}
+
+main .top_events .matchday .con1 .con_name {
+  /* border: 2px solid red; */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.con_name img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.con_name p {
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+main .top_events .matchday .con1 .con_score {
+  /* border: 2px solid red; */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.con_score p {
+  font-size: 50px;
+  color: #ff0000;
+  font-weight: 600;
+}
+.con_score span {
+  /* border: 2px solid #000000; */
+
+  font-size: 18px;
+}
+.con_score .wat {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+main .top_events .stat {
+  width: 50%;
+  padding: 5px 20px;
+  margin-inline: auto;
+  margin-block: 35px;
+  border-radius: 20px;
+  font-size: 30px;
+  background-color: #c40000ff;
+  text-align: center;
+  cursor: pointer;
+}
+.stat a {
+  /* border: 2px solid white; */
+  text-decoration: none;
+  color: #ffff;
+}
+
+main footer {
+  /* border: 2px solid green; */
+  width: 100%;
+  padding: 10px 40px;
+  position: fixed;
+  bottom: 10px;
+  /* margin-top: 60px; */
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff0000;
+}
+footer a {
+  text-decoration: none;
+  /* font-size: 18px; */
+  font-weight: 600;
+  color: #000000;
+  /* border: 2px solid black; */
+  padding: 10px;
+}
+footer a:hover {
+  color: #ffff;
+}
