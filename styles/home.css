@@ -135,12 +135,12 @@ main .top_events .stat {
 }
 
 main footer {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 100%;
   padding: 10px 40px;
-  margin-bottom: 10px;
-  position: sticky;
-  /* margin-top: %; */
+  /* margin-bottom: 10px; */
+  position: fixed;
+  bottom: 10px;
   display: flex;
   justify-content: space-between;
   background-color: #ff0000;
