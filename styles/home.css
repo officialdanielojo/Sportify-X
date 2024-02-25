@@ -32,6 +32,7 @@ main .page_sect a div span {
   font-weight: 600;
   text-align: center;
 }
+
 main .page_sect a div:hover {
   color: #ffff;
   background-color: #000000;
@@ -76,11 +77,13 @@ main .top_events .matchday .con1 .con_name {
   justify-content: center;
   align-items: center;
 }
+
 .con_name img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
+
 .con_name p {
   padding-top: 10px;
   font-size: 30px;
@@ -95,16 +98,19 @@ main .top_events .matchday .con1 .con_score {
   justify-content: center;
   align-items: center;
 }
+
 .con_score p {
   font-size: 50px;
   color: #ff0000;
   font-weight: 600;
 }
+
 .con_score span {
   /* border: 2px solid #000000; */
 
   font-size: 18px;
 }
+
 .con_score .wat {
   font-size: 13px;
   font-weight: 600;
@@ -121,6 +127,7 @@ main .top_events .stat {
   text-align: center;
   cursor: pointer;
 }
+
 .stat a {
   /* border: 2px solid white; */
   text-decoration: none;
@@ -128,16 +135,17 @@ main .top_events .stat {
 }
 
 main footer {
-  /* border: 2px solid green; */
+  border: 2px solid green;
   width: 100%;
   padding: 10px 40px;
-  position: fixed;
-  bottom: 10px;
-  /* margin-top: 60px; */
+  margin-bottom: 10px;
+  position: sticky;
+  /* margin-top: %; */
   display: flex;
   justify-content: space-between;
   background-color: #ff0000;
 }
+
 footer a {
   text-decoration: none;
   /* font-size: 18px; */
@@ -146,6 +154,7 @@ footer a {
   /* border: 2px solid black; */
   padding: 10px;
 }
+
 footer a:hover {
   color: #ffff;
 }
