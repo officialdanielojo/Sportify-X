@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+header h1 {
+    /* border: 2px solid black; */
+    width: fit-content;
+    margin-inline: auto;
+    margin-block: 20px;
+}
+
+header .back {
+    /* border: 2px solid red; */
+    margin-inline: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+header .back a {
+    text-decoration: none;
+    color: black;
+}
+
+header .back a:hover {
+    color: #ff0000;
+}
+
+/* Style for the team chat container */
+main #team-chat {
+    padding: 10px;
+}
+
+/* Style for chat messages */
+#team-chat #chat-messages {
+    overflow-y: auto;
+}
+
+#team-chat #chat-messages .message,
+.message1 {
+    max-width: 50%;
+    margin: 20px 0px;
+    color: #ff0000;
+    /* width: fit-content; */
+}
+
+.message1 {
+    margin-inline-start: auto;
+    text-align: end;
+}
+
+.message1 .sender {
+    width: fit-content;
+    font-weight: 600;
+    color: blue;
+    font-size: 20px;
+    margin-inline-start: auto;
+}
+
+#team-chat #chat-messages .message .sender {
+    width: fit-content;
+    font-weight: 600;
+    color: #ff0000;
+    font-size: 20px;
+}
+
+#team-chat #chat-messages .message .message-content {
+    /* border: 2px solid black; */
+    width: fit-content;
+}
+
+#team-chat #chat-messages .message .message-content p,
+.content {
+    /* border: 2px solid purple; */
+    max-width: 100%;
+    padding: 10px;
+    margin-block: 10px;
+    border-radius: 15px;
+    color: #ffff;
+    background-color: #000000;
+    display: inline-block;
+    word-wrap: break-word;
+}
+
+.content {
+    background-color: #6eb32eff;
+}
+
+/* Style for the input container */
+#chat-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Style for the input field */
+#message-input {
+    flex: 1;
+    padding: 10px;
+    margin-block: 0px 20px;
+    margin-inline: 20px 0px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+/* Style for the buttons */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-block: 0px 20px;
+    border-radius: 5px;
+    margin-inline: 10px;
+}
+
+main footer {
+    /* border: 2px solid green; */
+    width: 100%;
+    padding: 10px 40px;
+    margin-block: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff0000;
+}
+
+footer a {
+    text-decoration: none;
+    /* font-size: 18px; */
+    font-weight: 600;
+    color: #000000;
+    /* border: 2px solid black; */
+    padding: 10px;
+}
+
+footer a:hover {
+    color: #ffff;
+}
