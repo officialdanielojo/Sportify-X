@@ -1,0 +1,94 @@
+h2 {
+    /* border: 2px solid red; */
+    width: fit-content;
+    margin-inline: auto;
+    margin-block: 20px;
+    font-size: 35px;
+}
+
+main .date_con {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    margin-block: 30px 20px;
+    background-color: #000000;
+}
+
+main .date_con div {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    cursor: pointer;
+    color: #ffff;
+}
+
+main .date_con div:hover {
+    color: #ff0000;
+}
+
+main .news {
+    /* border: 2px solid red; */
+    margin-inline: 20px;
+    margin-block: 10px 40px;
+}
+
+main .news h4 {
+    /* border: 2px solid red; */
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+main .news span {
+    /* border: 2px solid red; */
+    font-size: 20px;
+}
+
+main .live {
+    /* border: 2px solid red; */
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+main .live p {
+    /* border: 2px solid white; */
+    /* margin-inline: 10px; */
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main .live .team {
+    /* border: 2px solid green; */
+    width: 60%;
+}
+
+main .live .team div {
+    margin-block: 10px;
+}
+
+main .live .team div img {
+    /* border: 2px solid black; */
+    width: 20px;
+    border-radius: 50%;
+}
+
+main .live .team div span {
+    /* border: 2px solid white; */
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main .live .score p {
+    margin-block: 10px;
+}

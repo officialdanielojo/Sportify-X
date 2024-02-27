@@ -1,0 +1,68 @@
+/* main .names {
+    border: 2px solid red;
+} */
+
+h3 {
+    /* border: 2px solid red; */
+    width: fit-content;
+    margin-inline: auto;
+    margin-block: 20px;
+    font-size: 35px;
+}
+
+.names .table1 {
+    /* border: 2px solid black; */
+    border-collapse: collapse;
+    width: 95%;
+    margin-inline: auto;
+    margin-block: 30px;
+    border-radius: 20px;
+    background-color: #000000;
+}
+
+.names .table1 th {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    color: #008000;
+    font-size: 25px;
+}
+
+.names .table1 td {
+    border: 1px solid white;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+h2 {
+    /* border: 2px solid red; */
+    width: fit-content;
+    font-size: 26px;
+    margin-inline: auto;
+    color: #ff0000;
+}
+
+.names .table2 {
+    /* border: 2px solid black; */
+    border-collapse: collapse;
+    width: 95%;
+    margin-inline: auto;
+    margin-block: 20px;
+    border-radius: 20px;
+    background-color: #000000;
+}
+
+.names .table2 th {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    color: #008000;
+    font-size: 25px;
+}
+
+.names .table2 td {
+    padding: 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
