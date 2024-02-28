@@ -72,14 +72,14 @@ main .top_events .matchday .con1 .con_name {
 }
 
 .con_name img {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
 }
 
 .con_name p {
   padding-top: 10px;
-  font-size: 30px;
+  font-size: 23px;
   font-weight: 600;
 }
 
@@ -108,7 +108,7 @@ main .top_events .matchday .con1 .con_score {
 }
 
 main .top_events .stat {
-  width: 50%;
+  width: 300px;
   padding: 5px 20px;
   margin-inline: auto;
   margin-block: 35px;
@@ -122,8 +122,8 @@ main .top_events .stat {
 
 main footer {
   width: 100%;
-  padding: 10px 40px;
-  position: fixed;
+  padding: 10px;
+  position: relative;
   bottom: 10px;
   display: flex;
   justify-content: space-between;
