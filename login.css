@@ -75,7 +75,7 @@ section .button button {
 }
 
 
-section .content {
+.content {
     width: 100%;
     position: fixed;
     bottom: 17%;
@@ -84,13 +84,15 @@ section .content {
     text-align: center;
 }
 
-section .content span {
+.content span {
     color: white;
     text-decoration: underline;
     cursor: pointer;
 }
 
-section .design img {
+.design img {
+    border: 2px solid red;
+    height: 300px;
     position: fixed;
     bottom: 0px;
     width: 100%;
