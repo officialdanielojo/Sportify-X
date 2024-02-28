@@ -12,28 +12,21 @@ main .page_sect {
   justify-content: space-between;
 }
 
-main .page_sect a {
-  text-decoration: none;
-  color: #000000;
-}
-
-main .page_sect a div {
+main .page_sect div {
   /* border: 2px solid green; */
   background-color: #d7edb4ff;
   width: fit-content;
   padding: 5px;
   border-radius: 20px;
   align-items: center;
-}
-
-main .page_sect a div span {
-  /* border: 2px solid black; */
+  color: #000000;
   font-size: 12px;
   font-weight: 600;
+  cursor: pointer;
   text-align: center;
 }
 
-main .page_sect a div:hover {
+main .page_sect div:hover {
   color: #ffff;
   background-color: #000000;
 }
@@ -106,8 +99,6 @@ main .top_events .matchday .con1 .con_score {
 }
 
 .con_score span {
-  /* border: 2px solid #000000; */
-
   font-size: 18px;
 }
 
@@ -126,16 +117,10 @@ main .top_events .stat {
   background-color: #c40000ff;
   text-align: center;
   cursor: pointer;
-}
-
-.stat a {
-  /* border: 2px solid white; */
-  text-decoration: none;
   color: #ffff;
 }
 
 main footer {
-  /* border: 2px solid green; */
   width: 100%;
   padding: 10px 40px;
   position: fixed;
@@ -147,10 +132,8 @@ main footer {
 
 footer a {
   text-decoration: none;
-  /* font-size: 18px; */
   font-weight: 600;
   color: #000000;
-  /* border: 2px solid black; */
   padding: 10px;
 }
 

@@ -5,50 +5,47 @@
 }
 
 header {
-    /* border: 2px solid red; */
     width: 100%;
 }
 
 header h1 {
-    /* border: 2px solid black; */
     width: fit-content;
     margin-inline: auto;
     margin-block: 20px;
 }
 
 header .back {
-    /* border: 2px solid red; */
     margin-inline: 20px;
     font-size: 25px;
     cursor: pointer;
     width: fit-content;
 }
 
-header .back a {
-    text-decoration: none;
-    color: black;
-}
-
-header .back a:hover {
+header .back:hover {
     color: #ff0000;
 }
 
 /* Style for the team chat container */
 main #team-chat {
     padding: 10px;
+    height: 75%;
+    overflow: hidden;
 }
 
 /* Style for chat messages */
 #team-chat #chat-messages {
-    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 10%;
+    box-sizing: content-box;
 }
 
 #team-chat #chat-messages .message,
 .message1 {
-    max-width: 50%;
+    max-width: 60%;
     margin: 20px 0px;
     color: #ff0000;
-    /* width: fit-content; */
 }
 
 .message1 {
@@ -72,13 +69,11 @@ main #team-chat {
 }
 
 #team-chat #chat-messages .message .message-content {
-    /* border: 2px solid black; */
     width: fit-content;
 }
 
 #team-chat #chat-messages .message .message-content p,
 .content {
-    /* border: 2px solid purple; */
     max-width: 100%;
     padding: 10px;
     margin-block: 10px;
@@ -113,34 +108,11 @@ main #team-chat {
 /* Style for the buttons */
 button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #008000;
     color: white;
     border: none;
     cursor: pointer;
     margin-block: 0px 20px;
     border-radius: 5px;
     margin-inline: 10px;
-}
-
-main footer {
-    /* border: 2px solid green; */
-    width: 100%;
-    padding: 10px 40px;
-    margin-block: 20px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #ff0000;
-}
-
-footer a {
-    text-decoration: none;
-    /* font-size: 18px; */
-    font-weight: 600;
-    color: #000000;
-    /* border: 2px solid black; */
-    padding: 10px;
-}
-
-footer a:hover {
-    color: #ffff;
 }

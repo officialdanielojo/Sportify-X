@@ -1,0 +1,98 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section #circle {
+    height: 130px;
+    width: 130px;
+    margin-inline: auto;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+section #circle .logo {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+section .arrow {
+    width: 70px;
+    margin-inline: auto 70px;
+}
+
+section form {
+    padding: 15px 20px;
+}
+
+section form label {
+    font-weight: 600;
+}
+
+section form input {
+    border: 2px solid black;
+    margin-block: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+section form input::placeholder {
+    letter-spacing: 1px;
+    color: rgb(163, 164, 165);
+}
+
+section .forget {
+    font-size: 13px;
+    font-weight: 600;
+    padding-inline: 20px;
+}
+
+section .forget a {
+    color: #961111ff;
+    text-decoration: none;
+}
+
+section .button {
+    width: fit-content;
+    color: white;
+    margin-block: 20px;
+    margin-inline: auto;
+}
+
+section .button button {
+    background: #961111ff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+}
+
+
+section .content {
+    width: 100%;
+    position: fixed;
+    bottom: 17%;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+section .content span {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+section .design img {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: -9999;
+}
