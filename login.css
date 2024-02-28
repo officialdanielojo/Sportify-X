@@ -94,8 +94,8 @@ section .button button {
     border: 2px solid red;
     height: 300px;
     width: 100%;
-    position: fixed;
-    bottom: 0px;
+    /* position: fixed; */
+    /* bottom: 0px; */
     width: 100%;
     z-index: -9999;
 }
