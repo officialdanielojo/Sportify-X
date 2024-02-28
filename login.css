@@ -95,7 +95,7 @@ section .button button {
     height: 300px;
     width: 100%;
     /* position: fixed; */
-    /* bottom: 0px; */
+    margin-block-start: 40px;
     width: 100%;
     z-index: -9999;
 }
