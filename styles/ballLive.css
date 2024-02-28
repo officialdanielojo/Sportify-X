@@ -1,5 +1,4 @@
 h2 {
-    /* border: 2px solid red; */
     width: fit-content;
     margin-inline: auto;
     margin-block: 20px;
@@ -7,7 +6,6 @@ h2 {
 }
 
 main .date_con {
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     padding: 5px 40px;
@@ -16,7 +14,6 @@ main .date_con {
 }
 
 main .date_con div {
-    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -32,24 +29,20 @@ main .date_con div:hover {
 }
 
 main .news {
-    /* border: 2px solid red; */
     margin-inline: 20px;
     margin-block: 10px 40px;
 }
 
 main .news h4 {
-    /* border: 2px solid red; */
     font-size: 20px;
     margin-bottom: 5px;
 }
 
 main .news span {
-    /* border: 2px solid red; */
     font-size: 20px;
 }
 
 main .live {
-    /* border: 2px solid red; */
     margin: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -60,15 +53,12 @@ main .live {
 }
 
 main .live p {
-    /* border: 2px solid white; */
-    /* margin-inline: 10px; */
     width: fit-content;
     font-size: 20px;
     font-weight: 600;
 }
 
 main .live .team {
-    /* border: 2px solid green; */
     width: 60%;
 }
 
@@ -77,13 +67,11 @@ main .live .team div {
 }
 
 main .live .team div img {
-    /* border: 2px solid black; */
     width: 20px;
     border-radius: 50%;
 }
 
 main .live .team div span {
-    /* border: 2px solid white; */
     width: fit-content;
     font-size: 20px;
     font-weight: 600;
