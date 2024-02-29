@@ -90,7 +90,7 @@ section .button button {
 .content {
     width: 100%;
     position: relative;
-    top: 100px;
+    top: 130px;
     font-size: 14px;
     font-weight: 600;
     text-align: center;
