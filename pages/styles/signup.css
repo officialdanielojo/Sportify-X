@@ -1,0 +1,41 @@
+* {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+form {
+    /* border: 2px solid red; */
+    padding: 40px 10px 20px;
+}
+
+form input,
+select {
+    border: 2px solid black;
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: #000000;
+}
+
+div {
+    /* border: 2px solid black; */
+    width: fit-content;
+    margin-inline: auto;
+}
+
+div button {
+    /* border: red; */
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffff;
+    border-radius: 10px;
+    background-color: #850707ff;
+}

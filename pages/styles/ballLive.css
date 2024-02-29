@@ -43,6 +43,7 @@ main .news span {
 }
 
 main .live {
+    /* border: 2px solid red; */
     margin: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -53,6 +54,7 @@ main .live {
 }
 
 main .live p {
+    /* border: 2px solid wheat; */
     width: fit-content;
     font-size: 20px;
     font-weight: 600;
