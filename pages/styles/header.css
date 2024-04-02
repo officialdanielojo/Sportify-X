@@ -124,15 +124,17 @@ nav .img img {
   }
 
   body header form button {
-    /* border: 2px solid green; */
-    position: absolute;
-    left: 200px;
-    top: 69px;
+    border: 2px solid green;
+    /* position:stic;
+    left: 19%;
+    top: 65px; */
+    float: right;
     width: fit-content;
     color: gray;
     cursor: pointer;
     font-size: 18px;
     background-color: #ffff;
+    display: none;
   }
 
   .bar_con {
