@@ -20,8 +20,8 @@ main .page_sect {
 main .page_sect div {
   /* border: 2px solid green; */
   background-color: #d7edb4ff;
-  width: fit-content;
-  padding: 5px;
+  width: 20vw;
+  padding: 10px;
   border-radius: 20px;
   align-items: center;
   color: #000000;
@@ -52,7 +52,7 @@ main .top_events .matchday {
 main .top_events .matchday h4 {
   /* border: 2px solid red; */
   width: fit-content;
-  font-size: 20px;
+  font-size: 16px;
   border-radius: 15px;
   margin: 10px;
   background-color: #f3fae8ff;
@@ -84,7 +84,7 @@ main .top_events .matchday .con1 .con_name {
 
 .con_name p {
   padding-top: 10px;
-  font-size: 23px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -98,7 +98,7 @@ main .top_events .matchday .con1 .con_score {
 }
 
 .con_score p {
-  font-size: 50px;
+  font-size: 40px;
   color: #ff0000;
   font-weight: 600;
 }
@@ -146,4 +146,26 @@ footer a {
 
 footer a:hover {
   color: #ffff;
+}
+
+@media screen and (min-width: 930px) {
+  body {
+    /* border: 2px solid brown; */
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #body {
+    width: 90%;
+    margin-block: 30px;
+    background-color: white;
+  }
+
+  main .page_sect div {
+    width: 20vw;
+    padding: 10px;
+    font-size: 14px;
+  }
 }

@@ -53,3 +53,19 @@ main .latest span {
   padding: 10px;
   font-weight: 600;
 }
+
+@media screen and (min-width: 930px) {
+  body {
+    /* border: 2px solid black; */
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #body {
+    margin-block: 30px;
+    background-color: white;
+    width: 90%;
+  }
+}

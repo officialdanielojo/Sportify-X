@@ -2,7 +2,7 @@ h3 {
     width: fit-content;
     margin-inline: auto;
     margin-block: 20px;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .names .table1 {
@@ -19,19 +19,19 @@ h3 {
     border-radius: 20px;
     padding: 10px;
     color: #008000;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .names .table1 td {
     border: 1px solid white;
     padding: 10px;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 h2 {
     width: fit-content;
-    font-size: 26px;
+    font-size: 25px;
     margin-inline: auto;
     color: #ff0000;
 }
@@ -50,11 +50,11 @@ h2 {
     border-radius: 20px;
     padding: 10px;
     color: #008000;
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .names .table2 td {
     padding: 20px;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
 }

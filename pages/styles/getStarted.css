@@ -6,10 +6,6 @@
     font-family: sans-serif;
 }
 
-/* section {
-    border: 2px solid red;
-} */
-
 section .image {
     /* border: 2px solid black; */
     width: fit-content;
@@ -23,8 +19,9 @@ section .image img {
 
 section p {
     /* border: 2px solid red; */
-    font-size: 20px;
-    margin-inline: 10px;
+    width: fit-content;
+    font-size: 16px;
+    padding-inline: 8px;
     /* font-weight: 600; */
 }
 
@@ -39,7 +36,7 @@ section .button button {
     /* border: 2px solid black; */
     padding: 10px 40px;
     border-radius: 20px;
-    font-size: 23px;
+    font-size: 18px;
     font-weight: 600;
     color: #ffff;
     background-color: #850707ff;
@@ -51,7 +48,7 @@ body .login {
     width: fit-content;
     margin-inline: auto;
     margin-block: 10px;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 body .login p span {
@@ -60,4 +57,20 @@ body .login p span {
     color: #850707ff;
     text-decoration: underline;
     cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        /* border: 2px solid brown; */
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #body {
+        width: 500px;
+        margin-block: 30px;
+        background-color: white;
+    }
 }
